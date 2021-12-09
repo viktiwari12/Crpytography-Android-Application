@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "830189645412",
+    "firebase_url": "https://d-messenger-app-d8ca3-default-rtdb.firebaseio.com",
+    "project_id": "d-messenger-app-d8ca3",
+    "storage_bucket": "d-messenger-app-d8ca3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830189645412:android:757f7f19874d7bcaa0f971",
+        "android_client_info": {
+          "package_name": "com.example.securedmessagingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830189645412-jm4e8q3o8nhdh26pjmd3rs8e4pqo7cqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzzlNKqElWyUJCf78nHERAyV7XKE-n0vY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830189645412-jm4e8q3o8nhdh26pjmd3rs8e4pqo7cqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="TabbedActivity.TabbedActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/newblue"
+        android:theme="@style/Theme.SecuredMessagingApp.AppBarOverlay">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="?actionBarSize"
+            android:padding="@dimen/appbar_padding"
+            android:text="Secured Messenger"
+            android:textSize="19dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+<!--        <ImageButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="360dp"-->
+<!--            android:src="@drawable/groupchat"-->
+<!--            android:id="@+id/groupchat"-->
+<!--            android:layout_marginTop="-25dp"-->
+<!--            android:background="@null"/>-->
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:tabIndicator="@color/white"
+            app:tabTextColor="#000000"
+            android:layout_marginTop="12dp"
+            app:tabTextAppearance="@style/TabStyle"
+            app:tabSelectedTextColor="#FFFF"
+
+            android:background="@color/newblue" />
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="120dp"-->
+<!--            android:id="@+id/tabbedlinearlayout"-->
+<!--            android:layout_marginTop="-102dp"-->
+<!--            android:background="#FFFF"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <ImageButton-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/backbutton"-->
+<!--                android:background="@null"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:id="@+id/backbutton"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                />-->
+<!--            <EditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:inputType="text"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:imeOptions="actionSearch"-->
+<!--                android:hint="Search.."-->
+<!--                android:textColorHint="#808080"-->
+<!--                android:textColor="#000000"-->
+<!--                android:id="@+id/searchview"-->
+<!--                />-->
+
+
+
+<!--        </LinearLayout>-->
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
